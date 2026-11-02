@@ -3,7 +3,7 @@
 A lightweight Windows script that instantly closes active background applications and clears recent desktop windows while keeping core system processes intact.
 
 ---
-
+ 
 ## Important Notice Before Use
 
 > **Save your work first!**  
