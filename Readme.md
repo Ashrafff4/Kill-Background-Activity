@@ -28,3 +28,4 @@ The utility executes the following PowerShell command:
 
 ```cmd
 powershell -windowstyle hidden -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Quit() }; Get-Process \vert{} Where-Object { ($_.MainWindowTitle -or $_.ProcessName -eq 'Taskmgr') -and$_.ProcessName -ne 'explorer' } | Stop-Process -Force"
+end
